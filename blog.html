@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Blog oldal a HTML5 haladó kurzus gyakorlásához">
+    <meta name="keywords" content="újratervezés, T360, Training 360, webfejlesztés, frontend, html, gyakorlás, blog, napló, tanfolyam">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>HTML5 blog</title>
+</head>
+
+<body class="is-preload">
+
+    <header id="header">
+        <a href="/index.html" class="logo">HTML5</a>
+        <nav>
+            <a href="#menu">Menü</a>
+        </nav>
+    </header>
+
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="/index.html">Kezdőlap</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main class="wrapper">
+        <section class="inner">
+            <article class="content">
+                <header>
+                    <h2>A szekció</h2>
+                    <p>Ismerkedés a szekciókkal
+                        Ez az elem is alapvetően a tartalom tagolására való.
+                        Több mélységben is egymásba lehet ágyazni, a keresőmotorok
+                        pedig felismerik.
+                    </p>
+
+                    <h3>Példakód</h3>
+                    <code>
+                    &lt;section&gt;Itt van a szekció tartalma&lt;/section&gt;
+                    </code>
+                </header>
+            </article>
+            <article class="content">
+                <header>
+                    <h2>Védd meg a fákat! Egyél hódot!</h2>
+                </header>
+                    <video style="margin: 20px auto" width="480" controls>
+                        <source src="/video/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+                    </video>
+            </article>
+        </section>
+    </main>
+
+    <aside class="wrapper">
+        <section class="inner">
+            <article class="content">
+                <iframe 
+                    src="https://vmeteo.hu/addon.php?size=300x188"
+                    frameBorder="0"
+                    scrolling="no"
+                    width="300"
+                    height="188"
+                    >
+                </iframe>
+            </article>
+            <article class="content">
+                <details open>
+                    <summary>
+                        Hasznos linkek
+                    </summary>
+                    <p>Itt megtalálod a HTML dokumentációt</p>
+                    <a href="https://www.w3schools.com/html/default.asp">HTML5 dokumentáció</a>
+                </details>
+            </article>
+            <article class="content">
+                <audio controls>
+                    <source src="/audio/looperman-l-2212484-0215391-doom-slayer.wav" type="audio/wav">
+                </audio>
+            </article>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <section>
+                <h3>Valami láblécbe való szöveg jön</h3>
+                <p>Itt most kifejtem, hogy mi van a láblécben. Dícsérgetem a HTML5 -öt meg minden.
+                    SEO -zzuk meg ezt is, mert ez egy tanfolyam és nehogymár.
+                    A frontend tanfolyam HTML kurzus gyakorlása ezzel letudva.
+                    Várjuk a hétvégi feladványt.
+                </p>
+            </section>
+            <section>
+                <h4>Hátha valaki elvesztette a navbart :)</h4>
+                <nav>
+                    <ul class="links">
+                        <li><a href="/index.html">Kezdőlap</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Scripts. -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
